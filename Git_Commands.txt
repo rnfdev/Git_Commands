@@ -1,0 +1,31 @@
+//Config
+Configuração Local do Git: git config --global username.name    user.email
+listar configurações: git config --list
+
+//Init
+Add o Git ao projeto: git init
+
+//Status
+Verificar Status: git status
+
+//Stage
+Add arquivos ao stage: git add "Nome do Arquivo"
+Add Todos ao stage: git add[space] + .
+Add diretório: git add + diretorio
+Remover arquivo: git rm arquivo
+
+//Commit
+Dar um Commit: git commit -m "Descrição"
+Verificar os commits: git log
+listar commit em uma linha: git log --pretty=oneline
+Acessar um commit: git checkout NomeDoCommit
+Reverter Commit: git revert ID do Commit
+
+//Branch
+Add noba branch: git branch nomeDaBranch
+Add nova branch a brach Master: git merge NomeDaNovaBranche
+Voltar para a branch Master: git checkout Master
+Deletar Branch: git branch -d NomeDaNovaBranche
+Listar branch com informações de Commit: git branch -v
+Listar as branch que foram fundidas: git branch --merged
+Listar as branch que não foram fundidas: git branch --no-merged
